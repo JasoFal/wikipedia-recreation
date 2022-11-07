@@ -5,9 +5,9 @@ body {
 
 ul.inline-list li {
   /* display: inline; */
-  color: red;
   display: list-item;
   float: left;
+  margin: 9px;
 }
 
 /* li.inline-list {
@@ -17,4 +17,32 @@ ul.inline-list li {
 
 ul {
   overflow: auto;
+}
+
+h2 {
+  font-size: 16.8px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 22.68px;
+}
+
+.header {
+  font-size: 13.3px;
+  text-align: center;
+}
+
+.sidebar {
+  font-size: 12px;
+}
+
+.ending {
+  font-size: 12px;
+}
+
+.no-bullet {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
 }
