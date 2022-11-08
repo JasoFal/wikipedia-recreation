@@ -1,13 +1,9 @@
-body {
-  font-family: sans-serif;
-  font-size: 14px;
-}
 
 ul.inline-list li {
   /* display: inline; */
   display: list-item;
   float: left;
-  margin: 9px;
+  margin: 10px;
 }
 
 /* li.inline-list {
@@ -28,11 +24,6 @@ h1 {
   font-size: 22.68px;
 }
 
-.header {
-  font-size: 13.3px;
-  text-align: center;
-}
-
 .sidebar {
   font-size: 12px;
 }
@@ -42,7 +33,19 @@ h1 {
 }
 
 .no-bullet {
-  list-style-type: none; /* Remove bullets */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margins */
+  list-style-type: none;
+  /* Remove bullets */
+  padding: 0;
+  /* Remove padding */
+  margin: 0;
+  /* Remove margins */
+}
+
+.subhead-filler {
+  margin-top: 8.4px;
+  margin-bottom: 8.4px;
+  padding-left: 6.72px;
+  padding-right: 6.72px;
+  padding-top: 3.36px;
+  padding-bottom: 3.36px;
 }
