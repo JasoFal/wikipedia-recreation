@@ -49,3 +49,8 @@ h1 {
   padding-top: 3.36px;
   padding-bottom: 3.36px;
 }
+
+.header {
+  margin: 4px 0px 0px;
+  padding: 0px 7px 7px;
+}
